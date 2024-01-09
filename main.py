@@ -1,18 +1,12 @@
 
-sapa = 'Halo semua .... saya '
+sapa = 'Halo semua .... nama saya '
 namasaya = 'Vivy Cahyani' #type string
 usia = 22 # type int
 tinggi_badan = 1.7 # type data float
-usiaBaru = "18" #string
-
-#konversi
-# int("10") ---> 10
-# str(10) ---> "10"
-# float(5) ---> 5.0
+punya_hewan_peliharaan = False
+punya_hewan_peliharaan = True # type boolean (True / False)
 
 #print
-print('Halo nama aku vivy')
-print(sapa + namasaya)
-print('Usia saya ' + usiaBaru)
-print('Usia saya ' + str(usia))
-print(tinggi_badan)
+print(sapa + namasaya + ' usia saya ' + str(usia))
+print('Tinggi badan ' + str(tinggi_badan) + ' cm')
+print(punya_hewan_peliharaan)
