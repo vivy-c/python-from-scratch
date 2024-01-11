@@ -1,23 +1,22 @@
-# FIND & LEN
+usia = int(input('Berapa usia Anda? '))
 
-nama_saya = "vivy cahyani"
+# OPERATOR
+# == sama dengan
+# != tidak sama dengan
+# < kurang dari sama dengan
+# <= kurang dari sama dengan
+# > lebih dari
+# >= lebih dari sama dengan
 
-# find pada str tiap characternya sesuai index
-print(nama_saya.find("v"))
-print(nama_saya.find("a"))
-print(nama_saya.find("y"))
-print(nama_saya.find("V"))
-
-# len pada str untuk menghitung jumlah characternya
-print(len(nama_saya))
-
-# bisa juga cek dengan boolean
-print('z' in nama_saya)
-print('y' in nama_saya)
-print('C' in nama_saya)
-print('c' in nama_saya)
-
-# operasi huruf
-print(nama_saya.upper())
-print(nama_saya.capitalize())
-print(nama_saya.count('v')) #dan masih banyak fungsi lainnya ada juga suggestion ketika mengetiknya
+if usia == 0:
+    print('belum lahir')
+elif usia > 0 and usia <= 5:
+    print('balita')
+elif usia > 5 and usia <= 10:
+    print('anak - anak')
+elif usia > 10 and usia <= 18:
+    print('remaja')
+elif usia > 18 and usia <= 25:
+    print('dewasa')
+else:
+    print('.... pengecualian ....')
