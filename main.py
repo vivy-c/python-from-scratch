@@ -1,22 +1,17 @@
-usia = int(input('Berapa usia Anda? '))
+teman_saya = ['nirina','agnes','angelica']
 
-# OPERATOR
-# == sama dengan
-# != tidak sama dengan
-# < kurang dari sama dengan
-# <= kurang dari sama dengan
-# > lebih dari
-# >= lebih dari sama dengan
+# print(teman_saya)
+# print(teman_saya[0])
+# print(teman_saya[1])
+# print(teman_saya[2])
+# print(len(teman_saya))
 
-if usia == 0:
-    print('belum lahir')
-elif usia > 0 and usia <= 5:
-    print('balita')
-elif usia > 5 and usia <= 10:
-    print('anak - anak')
-elif usia > 10 and usia <= 18:
-    print('remaja')
-elif usia > 18 and usia <= 25:
-    print('dewasa')
-else:
-    print('.... pengecualian ....')
+for teman in teman_saya:
+    print(teman)
+
+awal = 1
+
+while awal <= 10:
+    print(awal)
+    # awal = awal + 1
+    awal += 1
