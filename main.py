@@ -1,17 +1,12 @@
-teman_saya = ['nirina','agnes','angelica']
+saldo_awal = 5000
+deposit = input('Input desposit : ')
 
-# print(teman_saya)
-# print(teman_saya[0])
-# print(teman_saya[1])
-# print(teman_saya[2])
-# print(len(teman_saya))
+saldo_total = saldo_awal + int(deposit)
+hutang = 50_000
 
-for teman in teman_saya:
-    print(teman)
+if saldo_total >= hutang :
+    sisa_saldo = saldo_total - hutang
+    print('Sisa uang : ' + str(sisa_saldo))
+else:
+    print('saldo kurang')
 
-awal = 1
-
-while awal <= 10:
-    print(awal)
-    # awal = awal + 1
-    awal += 1
